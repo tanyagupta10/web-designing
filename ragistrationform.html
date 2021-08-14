@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+	    	margin: 0;
+	    	padding: 0;
+	    }
+		.form{
+			/*border: 2px solid blue;*/
+			width: 700px;
+            height: 650px;
+            margin: auto;
+               
+            background: #a9a1a1a1;
+            
+		}
+		.form h1
+		{
+			background: #b65324de;
+			color: white;
+			text-align: center;
+			height: 50px;
+			padding-top: 10px;
+		}
+		.button{
+			width: 250px;
+            height: 35px;
+            border-radius: 37px;
+            background: #b65324de;
+            margin-left: 190px;
+
+		}
+        .input{
+        	
+			width: 200px;
+            height: 25px;
+            border: 1px solid black;
+            
+            color: black;
+            border-radius:37px;
+
+		}
+
+	</style>
+</head>
+<body style="background: url('image/1.jpeg');background-size: 100%;">
+<div class="form">
+	<h1>RAGISTRATION FORM</h1>
+	<form style="padding-left:40px;font-size: 19px;">
+		<br><br>
+	  <label>Username<span style="color: red;">*</span>:</label>
+	  <input type="text" name=""placeholder="First Name" class="input"style="margin-left: 60px;">
+	  <input type="text" name=""placeholder=" Last Name" class="input" >
+	  <br><br>
+	  <label>Password<span style="color: red;">*</span>:</label>
+	  <input type="password" name=""placeholder="Enter Password" class="input"style="margin-left: 65px;">
+	  <br><br>
+	   <label> Email<span style="color: red;">*</span>:</label>
+	  <input type="email" name=""placeholder="Enter Email"class="input"style="margin-left: 95px;" >
+	  <br><br>
+	  <label>Phone NO<span style="color: red;">*</span>:</label>
+	  <input type="number" name=""placeholder="Enter Phone No." class="input"style="margin-left: 60px;">
+	  <br><br>
+	  <label>Gender:</label>
+	  <input type="radio" name="g" style="border-radius: 1px solid black;margin-left: 88px;">Male
+	  <input type="radio" name="g">Female
+	  <input type="radio" name="g">Other
+	  <br><br>
+	  <label>College:</label>
+	  <select name="College" style="margin-left: 90px;">
+	  	<option>Select College</option>
+	  	<option>MITS</option>
+	  	<option>ITM</option>
+	  	<option>RJIT</option>
+	  </select>
+	  <br><br>
+	  <label>Education:</label>
+	  <input type="checkbox" name=""style="margin-left: 70px;">10th
+	  <input type="checkbox" name="">12th
+	  <input type="checkbox" name="">B.Tech
+	  <br><br>
+	  <label>D.O.B.</label>
+	  <input type="date" name=""style="margin-left: 100px;" >
+	  <br><br>
+	  <label>Address:</label>
+	  <textarea name="address" rows="0"cols="0" style="margin-left: 87px;"></textarea>
+	  <br><br>
+	  <label>File/Image Upload:</label>
+	  <input type="file" name=""style="margin-left: 10px;">
+	  <br><br>
+	  <input type="submit" name="" class="button">
+
+	</form>
+</div>
+</body>
+</html>
